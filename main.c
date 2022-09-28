@@ -5,7 +5,7 @@ int main(void) {
   int aleatorio,tentativa;
   srand(time(NULL));
   aleatorio = rand()%20;
-  for(int i = 5; i > -5;i--){
+  for(int i = 5; i > 2;i--){
   printf("tente adivinhar, %d chances restantes\n",i);
   scanf("%d",&tentativa);
     if(tentativa > aleatorio){
